@@ -46,106 +46,106 @@ function Holiday() {
                 </div>
             </Modal>
             <div className="container">
-        <div className="outr-nav">
-            <img src={require("./Images/Group 646.svg").default} className="tl" alt="" />
-            <div className="group">
-                <img src={require("./Images/Group 618.svg").default} alt=""/>
-                <img src={require("./Images/Group 620.svg").default} alt=""/>
-                <img src={require("./Images/Group 622.svg").default} alt=""/>
-                <img src={require("./Images/Path 1974.svg").default} alt=""/>
-            </div>
-        </div>
-        <div className="vertical-nav">
-            <div className="lt-nav">
-                <img src={require("./Images/Settings.svg").default} alt="" />
-                <h3>Settings</h3>
-            </div>
-            <div className="rt-nav">
-                <img src={require("./Images/Layer 2.svg").default} alt=""/>
-                <img src={require("./Images/Layer 2 (1).svg").default} alt="" />
-                <img src={require("./Images/Layer 2 (2).svg").default} alt="" />
-                <p>50,000</p>
-                <img src={require("./Images/Group 815.svg").default} alt="" />
-            </div>
-        </div>
-    </div>
-    <div className="inner-container">
-        <div className="horizontal-nav">
-            <ul>
-                <li>General</li>
-                <li className="selected">Holiday</li>
-                <li>Leave</li>
-            </ul>
-        </div>
-        <div className="right">
-            <div className="holiday">
-                <h1>Holiday</h1>
-                <date>
-                    <img src={require("./Images/Group 856.svg").default} alt="" />
-                    <p className="year">Year</p>
-                    <p>2021</p>
-                </date>
-            </div>
-            <p className="subHeading">Assign the holidays you want to give your employees for the year</p>
-            <div className="holiday-lists">
-                <div className="head-list">
-                    <h3>List</h3>
-                        <p className='span' onClick={e => setModal(true)}>+ Add New</p>
-                        <p>Filter</p>
-                        <p>All</p>
-                </div>
-                <div className="dummy">
-                    <p>Name</p>
-                    <p>Type</p>
-                    <p>Date</p>
-                </div>
-                <div className="list">
-                    <h4>Rath Yatra</h4>
-                    <p className="year">Optional</p>
-                    <p >12 july, 2021</p>
-                    <div className="icons">
-                        <i className="fas fa-pencil-alt"></i>
-                        <i className="far fa-trash-alt"></i>
+                <div className="outr-nav">
+                    <img src={require("./Images/Group 646.svg").default} className="tl" alt="" />
+                    <div className="group">
+                        <img src={require("./Images/Group 618.svg").default} alt=""/>
+                        <img src={require("./Images/Group 620.svg").default} alt=""/>
+                        <img src={require("./Images/Group 622.svg").default} alt=""/>
+                        <img src={require("./Images/Path 1974.svg").default} alt=""/>
                     </div>
                 </div>
-                <div className="list">
-                    <h4>Rath Yatra</h4>
-                    <p className="year">Optional</p>
-                    <p >12 july, 2021</p>
-                    <div className="icons">
-                        <i className="fas fa-pencil-alt"></i>
-                        <i className="far fa-trash-alt"></i>
+                <div className="vertical-nav">
+                    <div className="lt-nav">
+                        <img src={require("./Images/Settings.svg").default} alt="" />
+                        <h3>Settings</h3>
                     </div>
-                </div>
-                <div className="list">
-                    <h4>Rath Yatra</h4>
-                    <p className="year">Optional</p>
-                    <p >12 july, 2021</p>
-                    <div className="icons">
-                        <i className="fas fa-pencil-alt"></i>
-                        <i className="far fa-trash-alt"></i>
-                    </div>
-                </div>
-                <div className="list">
-                    <h4>Rath Yatra</h4>
-                    <p className="year">Optional</p>
-                    <p >12 july, 2021</p>
-                    <div className="icons">
-                        <i className="fas fa-pencil-alt"></i>
-                        <i className="far fa-trash-alt"></i>
-                    </div>
-                </div><div className="list">
-                    <h4>Rath Yatra</h4>
-                    <p className="year">Optional</p>
-                    <p >12 july, 2021</p>
-                    <div className="icons">
-                        <i className="fas fa-pencil-alt"></i>
-                        <i className="far fa-trash-alt"></i>
+                    <div className="rt-nav">
+                        <img src={require("./Images/Layer 2.svg").default} alt=""/>
+                        <img src={require("./Images/Layer 2 (1).svg").default} alt="" />
+                        <img src={require("./Images/Layer 2 (2).svg").default} alt="" />
+                        <p>50,000</p>
+                        <img src={require("./Images/Group 815.svg").default} alt="" />
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
+            <div className="inner-container">
+                <div className="horizontal-nav">
+                    <ul>
+                        <li>General</li>
+                        <li className="selected">Holiday</li>
+                        <li>Leave</li>
+                    </ul>
+                </div>
+                <div className="right">
+                    <div className="holiday">
+                        <h1>Holiday</h1>
+                        <date>
+                            <img src={require("./Images/Group 856.svg").default} alt="" />
+                            <p className="year">Year</p>
+                            <p>2021</p>
+                        </date>
+                    </div>
+                    <p className="subHeading">Assign the holidays you want to give your employees for the year</p>
+                    <div className="holiday-lists">
+                        <div className="head-list">
+                            <h3>List</h3>
+                                <p className='span' onClick={e => setModal(true)}>+ Add New</p>
+                                <p>Filter</p>
+                                <p>All</p>
+                        </div>
+                        <div className="dummy">
+                            <p>Name</p>
+                            <p>Type</p>
+                            <p>Date</p>
+                        </div>
+                        <div className="list">
+                            <h4>Rath Yatra</h4>
+                            <p className="year">Optional</p>
+                            <p >12 july, 2021</p>
+                            <div className="icons">
+                                <i className="fas fa-pencil-alt"></i>
+                                <i className="far fa-trash-alt"></i>
+                            </div>
+                        </div>
+                        <div className="list">
+                            <h4>Rath Yatra</h4>
+                            <p className="year">Optional</p>
+                            <p >12 july, 2021</p>
+                            <div className="icons">
+                                <i className="fas fa-pencil-alt"></i>
+                                <i className="far fa-trash-alt"></i>
+                            </div>
+                        </div>
+                        <div className="list">
+                            <h4>Rath Yatra</h4>
+                            <p className="year">Optional</p>
+                            <p >12 july, 2021</p>
+                            <div className="icons">
+                                <i className="fas fa-pencil-alt"></i>
+                                <i className="far fa-trash-alt"></i>
+                            </div>
+                        </div>
+                        <div className="list">
+                            <h4>Rath Yatra</h4>
+                            <p className="year">Optional</p>
+                            <p >12 july, 2021</p>
+                            <div className="icons">
+                                <i className="fas fa-pencil-alt"></i>
+                                <i className="far fa-trash-alt"></i>
+                            </div>
+                        </div><div className="list">
+                            <h4>Rath Yatra</h4>
+                            <p className="year">Optional</p>
+                            <p >12 july, 2021</p>
+                            <div className="icons">
+                                <i className="fas fa-pencil-alt"></i>
+                                <i className="far fa-trash-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </>
     )
 }

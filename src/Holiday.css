@@ -88,6 +88,11 @@ body{
     font-weight: 600;
     border-radius: 5px;
 }
+.inner-container .horizontal-nav ul li:hover{
+    color: #405CD2;
+    background-color: #E1E6FF;
+    cursor: pointer;
+}
 .inner-container .horizontal-nav ul .selected{
     color: #405CD2;
     background-color: #E1E6FF;
@@ -155,6 +160,7 @@ body{
 }
 .holiday-lists .list .icons i{
      margin: 0 15px;
+     cursor: pointer;
 }
 .year{
     color: #90919B;
